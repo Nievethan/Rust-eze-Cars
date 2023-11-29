@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box
+}
+
+@font-face {
+    font-family: Kelvinized;
+    src: url(Fonts/Kelvinized.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Saira EL;
+    src: url(Fonts/SairaExtraCondensed-ExtraLight.ttf) format('truetype');
+}
+
+h1 {
+    font-family: Kelvinized;
+    color: #f8ca0a;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+a,
+button {
+    font-family: Kelvinized;
+    font-size: 16px;
+    color: #f8ca0a;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #b12b27;
+    filter: drop-shadow(0px 10px 10px #681916);
+}
+
+.logo {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #b12b27;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #ed332c;
+}
+
+body {
+    font-family: Kelvinized, sans-serif;
+    margin: 0;
+    background-image: url(Images/Kechow!.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: rgb(234, 234, 234);
+}
+
+p {
+    font-family: Saira EL;
+    font-weight: bolder;
+    color: rgb(234, 234, 234);
+}
+
+.mySlides1,
+.mySlides2,
+.mySlides3 {
+    display: none
+}
+
+.square-container {
+    width: 100%;
+    position: relative;
+    padding-bottom: 60%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img-container {
+    background-color: rgba(249, 245, 245, 0.229);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 700px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+}
+
+.slide-content {
+    position: relative;
+    text-align: center;
+}
+
+.car-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.782);
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(171, 24, 24);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+    background-color: #ab1d1d;
+    color: rgb(255, 255, 255);
+}

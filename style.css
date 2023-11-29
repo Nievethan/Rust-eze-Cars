@@ -1,0 +1,182 @@
+@font-face {
+  font-family: Kelvinized;
+  src: url(Fonts/Kelvinized.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Saira EL;
+  src: url(Fonts/SairaExtraCondensed-ExtraLight.ttf) format('truetype');
+}
+
+h1 {
+  font-family: Kelvinized;
+  color: #f8ca0a;
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+a,
+button {
+    font-family: Kelvinized;
+    font-size: 16px;
+    color: #f8ca0a;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #b12b27;
+    filter: drop-shadow(0px 10px 10px #681916);
+}
+
+.logo {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #b12b27;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #ed332c;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  align-items: center;
+  background-image: url(Images/radiatorSpringsBackground.png);
+  background-size: cover;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 25px 30px;
+  /* Adjust the padding to make tabs bigger */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.card-container {
+
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: 1200px;
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+  padding: 1em;
+  text-align: center;
+  height: 100%;
+  width: 33%;
+}
+
+.card p {
+  font-family: Saira EL;
+  font-weight: bolder;
+}
+
+.card button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.slider-container {
+  margin: 0% 15%;
+  background-color: white;
+  position: relative;
+  min-height: 50%;
+  min-width: 70%;
+}
+
+.slideshow {
+
+  position: relative;
+  width: 100%;
+  /* Adjust the fixed width of the slider container as needed */
+  height: 100%;
+  /* Adjust the fixed height of the slider container as needed */
+  overflow: hidden;
+  border: 2px solid #000000;
+  /* Border around the images */
+  margin: 0% 0%;
+  /* Center the slideshow container */
+}
+
+.mySlides0 {
+  display: none;
+}
+
+img:not(.logo) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Stretch or warp the image to fill the container */
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+.prev {
+  left: -40px;
+  /* Adjust the distance from the left edge of the slideshow */
+}
+
+.next {
+  right: -40px;
+  /* Adjust the distance from the right edge of the slideshow */
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}

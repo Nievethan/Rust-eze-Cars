@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <title>Home</title>
+</head>
+<body>
+  <header>
+    <img src="Images/Rusteze.png" class="logo" alt="logo">
+    <h1>Rust-eze Cars</h1>
+    <div>
+            <a href="index.html"><button>Home</button></a>
+            <a href="Shop.html"><button>Shop</button></a>
+            <a href="Popular.html"><button>Popular</button></a>
+    </div>
+    <a href="About.html" class="cta"><button>About</button></a>
+  </header>
+
+  <!--this portion is how to create an image slider for the website-->
+  <div class="slider-container">
+    <div class="slideshow">
+      <div class="mySlides0">
+        <img src="Images/mcqueenSlider.jpeg" alt="McQueen" style="width:100%">
+      </div>
+      <div class="mySlides0">
+        <img src="Images/jacksonStormSlider.webp" alt="Jackson Storm" style="width:114%">
+      </div>
+      <div class="mySlides0">
+        <img src="Images/docHudsonSlider.webp" alt="Doc Hudson" style="width:100%">
+      </div>
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+  </div>
+
+  <div class="card-container">
+    <div class="card">
+      <p>See our collection of cars and find one that suits you!</p>
+      <a href="Shop.html"><button>Find Your Vehicle!</button></a>
+    </div>
+  
+    <div class="card">
+      <p>Look at whats trending now.<br><br></p>
+      <a href="Popular.html"><button>See Whats Popular!</button></a>
+    </div>
+  
+    <div class="card">
+      <p>Get to know about the team!<br><br></p>
+      <a href="About.html"><button>About Us!</button></a>
+    </div>
+  </div>
+
+</body>
+</html>

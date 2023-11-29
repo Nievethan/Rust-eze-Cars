@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Kelvinized;
+    src: url(Fonts/Kelvinized.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Saira EL;
+    src: url(Fonts/SairaExtraCondensed-ExtraLight.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Kelvinized;
+    color: #f8ca0a;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+a,
+button {
+    font-family: Kelvinized;
+    font-size: 16px;
+    color: #f8ca0a;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #b12b27;
+    filter: drop-shadow(0px 10px 10px #681916);
+}
+
+.logo {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #b12b27;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #ed332c;
+}
+
+.carList .car .pic {
+    width: 200px;
+}
+
+.carList .car .price {
+    margin-top: 10px;
+}
+
+.carList .car .PistonCup {
+    width: 20px;
+}
+
+.carList {
+    padding-top: 20px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.carList .car {
+    background-color: #cad8e2c1;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.carList .car h2 {
+    font-family: Saira EL;
+    font-size: large;
+}
+
+.carList .car .PistonCup {
+    margin-right: 5px;
+}
+
+.carList .car .price {
+    font-family: Saira EL;
+    font-size: large;
+    font-weight: 800;
+}
+
+body {
+    background-image: url("Images/RadiatorSprings.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

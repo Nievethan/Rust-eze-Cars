@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Kelvinized;
+  src: url(Fonts/Kelvinized.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Saira EL;
+  src: url(Fonts/SairaExtraCondensed-ExtraLight.ttf) format("truetype");
+}
+
+h1 {
+  font-family: Kelvinized;
+  color: #f8ca0a;
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+a, button {
+  font-family: Kelvinized;
+  font-size: 16px;
+  color: #f8ca0a;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #b12b27;
+  filter: drop-shadow(0px 10px 10px #681916);
+}
+
+.logo {
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #b12b27;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #ed332c;
+}
+
+.mcqueen {
+  float: left;
+}
+
+.mainbody {
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 50px;
+  padding: 50px 50px 50px 50px;
+  background-color: #FFF4F3;
+  width: 100%;
+  margin: auto;
+  color: #927589;
+  font-size: 20px;
+  font-family: Saira EL;
+}
+
+.mainbody.alt {
+  background-color: #927589;
+  color: #FFF4F3;
+}
+
+.bgrs {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Kelvinized;
+  font-size: 100px;
+  padding: 150px 0px;
+  color: #FFF4F3;
+  letter-spacing: 20px;
+  min-height: 500px;
+  background-image: url("https://wallpapers.com/images/hd/radiator-springs-pk1b2uiobh7zfu21.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgrs.alt {
+  padding: 0px;
+  height: 500px;
+}
+
+.bgrs div.foundpic {
+  box-sizing: border-box;
+  float: left;
+  
+  width: 25%;
+  height: 100%;
+}
+
+.bgrs div.foundpic.alt {
+  padding-top: 20px;
+}
+
+.bgrs div.foundpic img {
+  box-sizing: border-box;
+  object-fit: contain;
+  height: 70%;
+  width: 100%;
+  padding: 10px 10px 0px 0px;
+}
+
+.bgrs div.foundpic div.blurb {
+  font-family: Saira EL;
+  letter-spacing: 1px;
+  color: #927589;
+  font-size: 20px;
+  background-color: #FFF4F3;
+  width: 80%;
+  margin: 10%;
+  min-height: 50px;
+}
+
+.aboutus {
+  padding: 0px 0px 30px 0px;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 15px;
+  font-family: Kelvinized;
+}

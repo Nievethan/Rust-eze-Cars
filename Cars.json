@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Lightning McQueen",
+        "price": 700,
+        "image": "Images/Cars/Lightning McQueen.webp"
+    },
+    {
+        "id": 2,
+        "name": "Tow Mater",
+        "price": 200,
+        "image": "Images/Cars/Tow Mater.webp"
+    },
+    {
+        "id": 3,
+        "name": "Sally Carrera",
+        "price": 200,
+        "image": "Images/Cars/Sally Carrera.webp"
+    },
+    {
+        "id": 4,
+        "name": "Doc Hudson",
+        "price": 450,
+        "image": "Images/Cars/Doc Hudson.webp"
+    },
+    {
+        "id": 5,
+        "name": "Ramone",
+        "price": 200,
+        "image": "Images/Cars/Ramone.webp"
+    },
+    {
+        "id": 6,
+        "name": "Flo",
+        "price": 250,
+        "image": "Images/Cars/Flo.webp"
+    },
+    {
+        "id": 7,
+        "name": "Luigi",
+        "price": 150,
+        "image": "Images/Cars/Luigi.webp"
+    },
+    {
+        "id": 8,
+        "name": "Guido",
+        "price": 150,
+        "image": "Images/Cars/Guido.webp"
+    },
+    {
+        "id": 9,
+        "name": "Sheriff",
+        "price": 300,
+        "image": "Images/Cars/Sheriff.webp"
+    },
+    {
+        "id": 10,
+        "name": "Fillmore",
+        "price": 200,
+        "image": "Images/Cars/Fillmore.webp"
+    },
+    {
+        "id": 11,
+        "name": "Sarge",
+        "price": 180,
+        "image": "Images/Cars/Sarge.webp"
+    },
+    {
+        "id": 12,
+        "name": "Red",
+        "price": 220,
+        "image": "Images/Cars/Red.webp"
+    },
+    {
+        "id": 13,
+        "name": "The King (Strip Weathers)",
+        "price": 600,
+        "image": "Images/Cars/TheKing.webp"
+    },
+    {
+        "id": 14,
+        "name": "Chick Hicks",
+        "price": 500,
+        "image": "Images/Cars/ChickHicks.webp"
+    },
+    {
+        "id": 15,
+        "name": "Darrel Cartrip",
+        "price": 450,
+        "image": "Images/Cars/Darrell Cartrip.webp"
+    }
+]
